@@ -37,7 +37,12 @@ def alan_kay_is_known_for
         :languages => ["C"]
       }
     }
+<<<<<<< HEAD
  programmer_hash[:alan_kay][:known_for]
+=======
+    
+  programmer_hash[:alan_kay][:known_for] = "GUI"
+>>>>>>> 717c422ea0cff79ce4a40cc44ce1ccda84fd5838
 end
 
 def dennis_ritchies_language
@@ -108,8 +113,12 @@ def changing_alan
         :languages => ["C"]
       }
     }
+<<<<<<< HEAD
   programmer_hash[:alan_kay][:known_for] = "GUI"
   programmer_hash
+=======
+  programmer_hash[:alan_kay][:known_for] = 
+>>>>>>> 717c422ea0cff79ce4a40cc44ce1ccda84fd5838
 end
 
 def adding_to_dennis
